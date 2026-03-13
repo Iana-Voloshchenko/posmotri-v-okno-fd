@@ -79,12 +79,30 @@ ol {
   align-items: start;
 }
 
+.search-form__fieldset-title {
+  font-weight: 400;
+  font-size: inherit;
+  line-height: 100%;
+}
+
 .content__details {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   gap: 26px;
   min-width: 0;
+}
+
+.title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 94%;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
 }
 
 .content__list-container {
@@ -101,6 +119,11 @@ ol {
   gap: 30px;
 }
 
+.content__card-link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 .content__video-card {
   display: flex;
   align-items: start;
@@ -108,6 +131,28 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+  min-width: 0;
+}
+
+.content__video-card-title {
+  margin-bottom: 6px;
+  overflow: hidden;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.content__video-card-description {
+  display: -webkit-box;
+  overflow: hidden;
+  font-weight: 400;
+  line-height: 90%;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 .content__video-card-thumbnail {
