@@ -184,6 +184,7 @@ ol {
   flex-direction: column;
   gap: 30px;
   height: 298px;
+  padding: 0 3px 3px 3px;
   overflow-y: scroll;
 }
 
@@ -234,4 +235,38 @@ ol {
   height: 103px;
   object-fit: cover;
   object-position: center;
+}
+
+.button {
+  border: 1px solid #FFFFFF;
+  padding: 7px;
+  outline: none;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 100%;
+  background-color: transparent;
+}
+
+.button:hover:not(:active) {
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus-visible {
+  outline: 1px solid #FFFFFF;
+  outline-offset: 2px;
+}
+
+.search-form__submit-button {
+  align-self: end;
+  min-width: 194px;
+}
+
+.more-button {
+  width: 100%;
 }
