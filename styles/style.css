@@ -105,6 +105,7 @@ ol {
   align-items: center;
   gap: 5px;
   width: fit-content;
+  cursor: pointer;
 }
 
 .search-form__label:has(.search-form__checkbox):hover .search-form__label-text {
@@ -266,6 +267,7 @@ ol {
   font-size: inherit;
   line-height: 100%;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .button:hover:not(:active) {
